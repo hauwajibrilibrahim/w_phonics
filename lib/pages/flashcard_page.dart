@@ -14,13 +14,13 @@ class FlashcardPage extends StatelessWidget {
                     borderRadius: BorderRadius.circular(24),
                   ),
       
-                  width: 150,
-                  height: 150,
+                  width: 350,
+                  height: 350,
                   child: Center(
                     child: Text(
                       phonicChar,
                       style: TextStyle(
-                        fontSize: 105,
+                        fontSize: 255,
                         fontWeight: FontWeight.w900,
                       ),
                     ),
