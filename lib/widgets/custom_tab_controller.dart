@@ -34,8 +34,16 @@ class _CustomBottomNavigationState extends State<CustomBottomNavigation> {
         dividerHeight: 0,
         indicatorColor: Colors.transparent,
         tabs: [
-          _buildBottomNavItem(index: 0, activeColor: Colors.amber.shade900, icon: Icons.book ),
-          _buildBottomNavItem(index: 1, activeColor: Colors.green.shade900, icon: Icons.list),
+          _buildBottomNavItem(
+            index: 0,
+            activeColor: Colors.amber.shade900,
+            icon: Icons.menu_book_rounded,
+          ),
+          _buildBottomNavItem(
+            index: 1,
+            activeColor: Colors.purple.shade400,
+            icon: Icons.list,
+          ),
         ],
       ),
     );
