@@ -36,10 +36,9 @@ class CustomTextField extends StatelessWidget {
         labelText: label,
         labelStyle: TextStyle(color: Colors.white),
         focusColor: Colors.white,
-        
       ),
       cursorColor: Colors.white,
-      
+      style: TextStyle(color: Colors.white),
     );
   }
 }
